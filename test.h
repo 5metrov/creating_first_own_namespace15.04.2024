@@ -21,8 +21,8 @@ namespace test {
 
     void test_some_func(std::vector<int>(*creat_vec)(int)) {
 
-        int amount = 5;
-        std::vector<int> expect_vec = { 1, 2, 4, 8, 22 };
+        int amount = 6;
+        std::vector<int> expect_vec = { 1, 2, 4, 8, 16, 22 };
 
         std::vector<int> result_vec = creat_vec(amount);
 
